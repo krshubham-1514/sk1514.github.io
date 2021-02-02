@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,500&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}
+
+.container{
+    
+    padding:1%;
+    border-radius:15px;
+    display: grid;
+    grid-template-columns:30% 70%;
+    
+}
+
+#shubham_photo img{
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+    border-radius:2%;
+}
+.profile_section{
+
+    border:1px solid grey;
+    border-radius:5px;
+    padding:2%;
+}
+#shubham_profile_data{
+    font-weight:700;
+}
+.social_links_section{
+    text-align:center;
+}
+.social_links_section span a {
+
+    margin:10px;
+}
