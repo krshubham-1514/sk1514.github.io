@@ -131,3 +131,24 @@ body{
     0%{height:10%}
     100%{height: 100%;}
 }
+
+/*CSS MediaQueries */
+@media only screen and (max-width: 767px) {
+    .container{
+        display:block;
+        
+    }
+    .about_shubham_section{
+        margin-left: 0px;
+    }
+    #about_titles_list  li{
+        display:block;
+
+    }
+    .dot{
+        left: -10px;
+        height: 5px;
+        width: 5px;
+    }
+
+}
